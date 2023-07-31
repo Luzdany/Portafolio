@@ -1,0 +1,242 @@
+body{
+    
+    margin: 0px ;
+    padding: 0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+
+}
+nav .header-nav-section .profile-pic{
+    border-radius: 30px;
+margin-left: 20px;}
+header{
+    width: 100%;
+    height: 55px;}
+
+header nav{
+display: flex;
+justify-content: flex-end}
+
+header nav .header-nav-section{ 
+
+    list-style: none;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;}
+
+nav .header-nav-section a{
+    color:black;
+    text-decoration: none;
+    margin-right: 25px;}
+
+nav .header-nav-section a:hover{
+    text-decoration: underline;
+}
+nav .header-nav-section .menu:hover{
+    box-shadow:#8b8f92;
+}
+
+nav .header-nav-section .profile-pic:hover{
+    box-shadow: #8b8f92;
+}
+nav .header-nav-section .menu {
+ background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);   
+ width: 20px;
+ height: 20px;
+ background-size: contain;
+ background-repeat: no-repeat;}
+
+.main-logo{
+    margin-right: 50px;
+}
+
+main{
+    text-align: center;
+    margin-top: 100px;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+main .main-logo img{
+    height: 100px;
+
+}
+
+main .main-input{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+main .main-input-container{
+
+    border: 1px solid rgb(227, 230, 229);
+    border-radius: 30px;
+    width: 525px;
+    justify-content:left
+}
+
+main .main-input input{
+
+    height: 40px;
+    border: none;
+    outline: none;
+    justify-content: left;
+    width: 400px;
+}
+
+main .main-input .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-position: center ;
+    width: 15px;
+    background-size: contain;
+    padding-left: 10px;
+    padding-right: 25px;
+    background-repeat: no-repeat;
+}
+
+main .main-input .micro-icon{
+    background-image: url(data:image/png;base64,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);
+    width: 10%;
+    height: 25px;
+    /* Ícono contenido en el espacio */
+    background-size: contain;
+    background-position: center;
+    padding-left: 6%;
+    background-repeat: no-repeat;
+}
+
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    width: 17px;
+    height: 17px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 6%;
+}
+
+main .main-buttons{
+    
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 700px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+
+main .main-buttons button{
+    border: 0;
+    height: 40px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 0 15px;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 0 5px #20212447;
+}
+main .main-buttons button:hover{
+    color:#202124;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border: 1px solid #dadce0
+}
+
+footer{
+    background-color: #F2F2F2;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family:'Questrial', sans-serif;
+    font-size: 15px;
+    height: 50px;
+    border: #3c4043;
+    border-top: #DBDDE1 solid .1px
+
+}
+
+footer .footer-left{
+    justify-content: left;
+    display: flex;
+    list-style: none;
+    width: 50%;
+    font-family:'Questrial', sans-serif;
+    height: 25px;
+    color:#8b8f92
+    
+}
+
+footer .footer-right{
+    justify-self: flex-end;
+    display: flex;
+    margin-right: 50px;
+    list-style: none;
+    width: 50%;
+    justify-content: right;padding-right: 0px;
+    color:#5d5c5e;
+}
+
+footer a{
+    color: #5d5c5e;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+footer a:hover {
+    text-decoration: underline
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow:auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+
+  } 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+
+  footer button {
+    border: none;
+    background-color: none;
+    font-family:'Questrial', sans-serif;
+    font-size: 15px;
+    color: #5d5c5e;
+  }
+
+  footer button:hover{
+    text-decoration: underline;
+  }
+  
+
